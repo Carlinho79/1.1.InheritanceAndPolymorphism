@@ -1,8 +1,8 @@
 # ===================================
-#  Java + IntelliJ + macOS .gitignore
+#  Java + IntelliJ IDEA + macOS
 # ===================================
 
-# ---> Java
+# === Java ===
 *.class
 *.log
 *.ctxt
@@ -14,54 +14,43 @@
 *.tar.gz
 *.rar
 
-# Generated files
-hs_err_pid*
-replay_pid*
+# === Compiled output ===
+/out/
+/build/
+/bin/
+/target/
 
-# ---> IntelliJ IDEA
+# === IntelliJ IDEA ===
 .idea/
 *.iml
-*.iws
-out/
-.idea_modules/
 *.ipr
+*.iws
 
-# User-specific stuff
+# User-specific files (session data, tasks, configs)
 .idea/workspace.xml
 .idea/tasks.xml
-.idea/dictionaries
+.idea/dictionaries/
 .idea/shelf/
 .idea/httpRequests/
-
-# IDE caches
 .idea/caches/
-.idea/assetWizardSettings.xml
 .idea/libraries/
+.idea/assetWizardSettings.xml
 
-# Built files
-/build/
-target/
-
-# ---> macOS
+# === macOS ===
 .DS_Store
 .AppleDouble
 .LSOverride
-
-# Icon must end with two \r
 Icon
-
-# Thumbnails
 ._*
-
-# Files that might appear in macOS folders
 .Spotlight-V100
 .Trashes
 .fseventsd
 
-# ---> Logs
+# === Logs ===
 logs/
 *.log
 
-# ---> Misc
+# === Misc ===
 *.swp
 *~
+.vscode/
