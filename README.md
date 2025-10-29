@@ -46,7 +46,7 @@ From the `main()` method, show how to call both static and non-static methods.
 
 Create a class `Phone` with attributes `brand` and `model`, and a method:
 ```java
-void call(String number)
+void call(String number);
 ```
 that prints *"Calling number [number]"*.
 
@@ -83,7 +83,7 @@ From `main()`, create a `Smartphone` object and call the methods.
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/<your_username>/1.Java-Language-Level1-and-2.git
+   git clone https://github.com/carlinho79/1.Java-Language-Level1-and-2.git
    ```
 2. Open the project in IntelliJ IDEA.
 3. Ensure the configured JDK is version 21 or higher.
